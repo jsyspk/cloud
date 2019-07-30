@@ -62,7 +62,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Aws\\Test\\": "tests/"
+            "J\\Cloud\\Test\\": "tests/"
         },
         "classmap": ["lib/"]
     }
