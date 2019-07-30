@@ -1,0 +1,69 @@
+{
+    "name": "j/cloud",
+    "description": "Cloud interaction simplified",
+    "type": "library",
+    "homepage": "http://github.com/googleapis/google-cloud-php",
+    "keywords": [
+        "google apis client",
+        "google api client",
+        "google apis",
+        "google api",
+        "google",
+        "google cloud platform",
+        "google cloud",
+        "cloud",
+        "bigtable",
+        "bigquery",
+        "big query",
+        "datastore",
+        "stackdriver logging",
+        "kms",
+        "language",
+        "natural language",
+        "pubsub",
+        "pub sub",
+        "spanner",
+        "speech",
+        "storage",
+        "gcs",
+        "tasks",
+        "translate",
+        "translation",
+        "vision",
+        "aws",
+        "amazon",
+        "aws sdk",
+        "s3",
+        "ec2",
+        "dynamodb",
+        "glacier"
+    ],
+    "require": {
+        "php": ">=7.3",
+        "aws/aws-sdk-php": "^3.0@dev",
+        "google/cloud": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Masood",
+            "email": "ahmad@zenex.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "J\\Cloud\\": "lib/"
+        },
+        "classmap": ["lib/"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aws\\Test\\": "tests/"
+        },
+        "classmap": ["lib/"]
+    }
+}
